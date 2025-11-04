@@ -110,10 +110,17 @@ a {
   color: #404bbf;
 }
 
+/*Effective Solutions for Your Business
+Order Service*/
+
 .title-section {
   background-color: #2e2f42;
 }
 .main-heading {
+  max-width: 496px;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  margin: 0 auto;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
@@ -123,6 +130,14 @@ a {
 }
 
 .button-title {
+  cursor: pointer;
+  border: none;
+  height: 56px;
+  min-width: 169px;
+  border-radius: 4px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
@@ -135,6 +150,8 @@ a {
 .button-title:focus {
   background-color: #404bbf;
 }
+
+/*Strategy end next*/
 
 .second-title {
   font-weight: 500;
@@ -150,6 +167,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/*our team*/
 
 .section-title {
   background-color: #f4f4fd;
@@ -183,6 +202,8 @@ a {
   color: #434455;
 }
 
+/*Our Portfolio*/
+
 .color-li {
   background-color: #fff;
 }
@@ -213,6 +234,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/*footer*/
 
 .page-footer {
   background-color: #2e2f42;
