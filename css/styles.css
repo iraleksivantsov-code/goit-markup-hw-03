@@ -114,12 +114,14 @@ a {
 Order Service*/
 
 .title-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
   height: 600px;
   background-color: #2e2f42;
 }
 .main-heading {
   max-width: 496px;
-  padding-top: 188px;
+
   padding-bottom: 48px;
   margin: 0 auto;
   font-size: 56px;
@@ -154,11 +156,14 @@ Order Service*/
 
 /*Strategy end next*/
 
+.paragraph-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .paragreph-spase {
-  margin-bottom: 8px;
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .visually-hidden {
@@ -175,6 +180,8 @@ Order Service*/
 }
 
 .second-title {
+  width: calc((100% - 3 * 24px) / 4);
+  margin-bottom: 8px;
   padding-left: 156px;
   padding-right: 156px;
   font-weight: 500;
@@ -194,6 +201,8 @@ Order Service*/
 /*our team*/
 
 .section-title {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
