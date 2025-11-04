@@ -166,6 +166,10 @@ Order Service*/
   gap: 24px;
 }
 
+.li-first {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -180,7 +184,6 @@ Order Service*/
 }
 
 .second-title {
-  width: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
   padding-left: 156px;
   padding-right: 156px;
@@ -207,6 +210,7 @@ Order Service*/
 }
 
 .our-team {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -216,7 +220,24 @@ Order Service*/
   color: #2e2f42;
 }
 
+.two-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.color-li {
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  background-color: #fff;
+}
+
+.name-people {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -235,10 +256,6 @@ Order Service*/
 }
 
 /*Our Portfolio*/
-
-.color-li {
-  background-color: #fff;
-}
 
 .our-portfolio {
   font-weight: 700;
