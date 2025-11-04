@@ -17,7 +17,13 @@ ol {
   margin: 0;
 }
 
-h1 h2 h3 h4 h5 h6 p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -119,13 +125,12 @@ Order Service*/
 
 .title-section {
   padding-top: 188px;
-  padding-bottom: 188px;
+  margin-bottom: 188px;
   height: 600px;
   background-color: #2e2f42;
 }
 .main-heading {
   max-width: 496px;
-
   padding-bottom: 48px;
   margin: 0 auto;
   font-size: 56px;
@@ -189,8 +194,6 @@ Order Service*/
 
 .second-title {
   margin-bottom: 8px;
-  padding-left: 156px;
-  padding-right: 156px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -282,7 +285,6 @@ Order Service*/
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  margin-right: 24px;
 }
 
 .li-our-portfolio {
@@ -342,6 +344,7 @@ Order Service*/
 }
 
 .paragraph-footer {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
