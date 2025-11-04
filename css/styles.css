@@ -114,6 +114,8 @@ a {
 Order Service*/
 
 .title-section {
+  width: 1440px;
+  height: 600px;
   background-color: #2e2f42;
 }
 .main-heading {
@@ -130,6 +132,7 @@ Order Service*/
 }
 
 .button-title {
+  padding: auto;
   cursor: pointer;
   border: none;
   height: 56px;
@@ -152,6 +155,19 @@ Order Service*/
 }
 
 /*Strategy end next*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .second-title {
   font-weight: 500;
