@@ -4,13 +4,44 @@ body {
   background-color: #fff;
 }
 
+/*reset*/
+
 ul,
 ol {
   list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+/*common*/
+
+.container {
+  max-width: 1158;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+/*header*/
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -23,6 +54,11 @@ a {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .header-logo .logo-part {
   color: #2e2f42;
 }
@@ -31,7 +67,15 @@ a {
   color: #f4f4fd;
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -41,9 +85,18 @@ a {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
