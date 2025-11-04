@@ -154,6 +154,13 @@ Order Service*/
 
 /*Strategy end next*/
 
+.paragreph-spase {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -168,6 +175,8 @@ Order Service*/
 }
 
 .second-title {
+  padding-left: 156px;
+  padding-right: 156px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
